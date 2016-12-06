@@ -7,7 +7,8 @@
 
     <ol class="round">
         <li>
-            <h5>Buscador de estudios por Entidades, Investigadores y Lugares de Realización</h5>
+            <h5>Buscador de estudios por por Investigador, Título de la Investigación, Tipo de Estudio,
+                Nombre de Institución, Año, Palabras Clave, Drogas, Nro Reg. Nacional o Nro Expediente</h5>
             <p>
                 <table style="width: 100%;">
                     <tr>
@@ -42,7 +43,7 @@
                         <ItemStyle Height="20px" HorizontalAlign="Center" Width="20px" />
                     </asp:TemplateField>
 
-                    <asp:BoundField DataField="idEstudio" HeaderText="idEstudio" Visible="False" />                    
+                    <asp:BoundField DataField="idEstudio" HeaderText="idEstudio" Visible="False" />
                     <asp:BoundField DataField="investigador" HeaderText="Investigador" />
                     <asp:BoundField DataField="tituloInvestigacion" HeaderText="Título" />
                     <asp:BoundField DataField="nombreInstitucionAfiliacion" HeaderText="Institución de referencia" />
